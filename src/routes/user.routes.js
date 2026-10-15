@@ -1,8 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const authenticate = require('../middleware/auth');
+const { requireRegisteredUser } = require('../middleware/auth');
 
-router.post("/dashboard", authenticate, (req, res) => {
+router.post("/dashboard", requireRegisteredUser, (req, res) => {
   res.send("all good");
 });
 
