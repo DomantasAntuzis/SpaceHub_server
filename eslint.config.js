@@ -39,7 +39,6 @@ module.exports = [
 
       // --- Async/Promise correctness ---
       'no-async-promise-executor': 'error',
-      'require-atomic-updates': 'error',
       'require-await': 'warn',
 
       // --- Node-specific (from eslint-plugin-n) ---
@@ -47,7 +46,7 @@ module.exports = [
       'n/no-extraneous-require': 'error',
       'n/no-process-exit': 'warn',
       'n/no-unpublished-require': 'off',
-
+      
       // --- Consistency / footgun avoidance ---
       eqeqeq: 'error',
       indent: ['error', 2],

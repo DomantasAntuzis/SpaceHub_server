@@ -13,13 +13,16 @@
     "bcrypt": "^6.0.0",
     "connect-redis": "^10.0.0",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "express-rate-limit": "^8.7.0",
     "express-session": "^1.19.0",
     "mysql2": "^3.24.4",
+    "rate-limit-redis": "^6.0.1",
     "redis": "^6.2.1",
-    "sequelize": "^6.37.8"
+    "sequelize": "^6.37.8",
+    "socket.io": "^4.8.4"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
