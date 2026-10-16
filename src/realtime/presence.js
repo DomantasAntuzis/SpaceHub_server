@@ -39,4 +39,4 @@ async function getMembers(roomId) {
   return Object.values(all).map((m) => JSON.parse(m));
 }
 
-module.exports = { toMember, addSocket, removeSocket, getMembers };
+module.exports = { userKey, toMember, addSocket, removeSocket, getMembers };
